@@ -1,0 +1,18 @@
+				CÓDIGOS GIT e GIT HUB
+
+git --version                                   	(Verifica a versão do GIT)
+git config --global user.email you@example.com  	(Configura a variável do email)
+git config --global user.name "Your Name"       	(Configura a variável do usuário)  
+git config user.name                            	(Verifica o usuário)
+git init  						(Cria um repositório localmente)
+git status 						(Visualiza o statu dos arquivos)
+git add nome_arquivo                            	(Adiciona um arquivo ao staged)
+git add .                                       	(adiciona todos os arquivos ao staged)
+git commit -m "comentário"                      	(Consolida alterações com um comentário)
+git remote add origin "http://...url do rep remoto..."  (Mapea um repositório remoto)
+git remote -v 							   ||
+git push -u origin master 				(Empurra para o repositório remoto)
+git push 								||
+git push origin master --force   					||
+git clone "http://...url do rep remoto..."     		(Clona um repositório remoto)
+git branch -M main                             		(Troca o nome da banch)
